@@ -1,0 +1,2 @@
+  PROTECTED SECTION.
+    METHODS: evaluate_annotations REDEFINITION.

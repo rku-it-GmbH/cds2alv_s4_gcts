@@ -1,0 +1,760 @@
+[
+ {
+  "table":"T100",
+  "data":
+  [
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"001",
+    "TEXT":"Die Tabelle konnte nicht um das Style-Feld &1 erweitert werden."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"002",
+    "TEXT":"Keine Navigation für Objekt &1, Aktion &2 definiert."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"003",
+    "TEXT":"Bitte markieren Sie nur eine Zeile für diese Aktion."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"004",
+    "TEXT":"Aufruf mit Tabellenparameter nur für Funktionsbausteine möglich!"
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"005",
+    "TEXT":"Ungültiger Importparameter &1 für Funktionsbaustein &2."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"006",
+    "TEXT":"Fehler beim Generieren des Reports für CDS-View &1 (Zeile &2, Wort &3)"
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"007",
+    "TEXT":"Der CDS-View &1 existiert nicht."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"008",
+    "TEXT":"Kein Programm für CDS-View &1 vorhanden."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"009",
+    "TEXT":"Der CDS-View &1 existiert bereits."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"010",
+    "TEXT":"Der DDIC-View &1 existiert bereits."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"011",
+    "TEXT":"Query oder Quick-View &1 ist nicht vorhanden."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"012",
+    "TEXT":"Query oder Quick-View &1 kann nicht gelesen werden."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"013",
+    "TEXT":"Objekt &1 konnte nicht aktiviert werden."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"014",
+    "TEXT":"Programminfos für CDS-View &1 konnten nicht gespeichert werden."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"015",
+    "TEXT":"Das Objekt implementiert nicht das Interface &1."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"016",
+    "TEXT":"Keine gültige implementierende Klasse für Interface &1 konfiguriert."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"017",
+    "TEXT":"Für Interface &1 konnte keine Instanz der Klasse &2 instanziiert werden."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"018",
+    "TEXT":"Die Tabelle hat nicht die passende Struktur für CDS-View &1."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"019",
+    "TEXT":"Klasse &1 für Erweiterung &2 konnte nicht instanziiert werden."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"020",
+    "TEXT":"Es sind keine Programmerweiterungen verfügbar."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"021",
+    "TEXT":"Konvertierung für XML-Version &1 aktuell nicht umgesetzt."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"022",
+    "TEXT":"Bitte geben Sie einen Dateinamen an."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"023",
+    "TEXT":"Fehler beim Lesen der Datei &1."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"024",
+    "TEXT":"Fehler beim Ablegen der Datei &1."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"025",
+    "TEXT":"Fehler beim Löschen der Datei &1."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"026",
+    "TEXT":"Datei &1 wurde abgelegt."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"027",
+    "TEXT":"&1 ist keine gültige Klasse."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"028",
+    "TEXT":"&1 ist kein gültiges Interface."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"029",
+    "TEXT":"Klasse &1 implementiert nicht das Interface &2."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"030",
+    "TEXT":"Fehler beim RFC-Aufruf: &1"
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"031",
+    "TEXT":"Mailversand an Empfängerliste &1 angestoßen."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"032",
+    "TEXT":"Leere Empfängerliste &1"
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"033",
+    "TEXT":"Ungültiger Parameter &1 für Klasse &2, Methode &3."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"034",
+    "TEXT":"Fehler aufgetreten in Klasse &1, Methode &2."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"035",
+    "TEXT":"Ungültige Methode &2 für Klasse &1."
+   },
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"036",
+    "TEXT":"Fehler aufgetreten bei Instanzerzeugung für Klasse &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"001",
+    "TEXT":"Style field &1 could not be inserted into the table."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"002",
+    "TEXT":"No navigation defined for semantic object &1, action &2."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"003",
+    "TEXT":"Please select exactly one line for this action."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"004",
+    "TEXT":"Only function modules may be called with tables parameters!"
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"005",
+    "TEXT":"Invalid importing parameter &1 for function module &2."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"006",
+    "TEXT":"Syntax error in generated report for CDS view &1 (Line &2, Word &3)"
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"007",
+    "TEXT":"CDS view &1 does not exist."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"008",
+    "TEXT":"No program available for CDS view &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"009",
+    "TEXT":"CDS view &1 already exists."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"010",
+    "TEXT":"DDIC view &1 already exists."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"011",
+    "TEXT":"Query or quick view &1 does not exist."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"012",
+    "TEXT":"Error reading query or quick view &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"013",
+    "TEXT":"Object &1 could not be activated."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"014",
+    "TEXT":"Program infos for CDS View &1 could not be saved."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"015",
+    "TEXT":"The given object does not implement interface &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"016",
+    "TEXT":"There is no valid implementing class configured for interface &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"017",
+    "TEXT":"No instance of class &2 could be instantiated for interface &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"018",
+    "TEXT":"The given table does not have the right line type for CDS view &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"019",
+    "TEXT":"Class &1 could not be instantiated for extension &2."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"020",
+    "TEXT":"There are no program extensions available."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"021",
+    "TEXT":"Conversion is currently not implemented for XML version &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"022",
+    "TEXT":"Please enter a file name!"
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"023",
+    "TEXT":"Error occured reading file &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"024",
+    "TEXT":"Error occured storing file &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"025",
+    "TEXT":"Error occured deleting file &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"026",
+    "TEXT":"File &1 was stored."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"027",
+    "TEXT":"&1 is not a valid class."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"028",
+    "TEXT":"&1 is not a valid interface."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"029",
+    "TEXT":"Class &1 does not implement interface &2."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"030",
+    "TEXT":"Error during RFC call: &1"
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"031",
+    "TEXT":"Mail delivery to receiver list &1 was triggered."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"032",
+    "TEXT":"Empty receiver list &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"033",
+    "TEXT":"Invalid importing parameter &1 for class &2, method &3."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"034",
+    "TEXT":"Error occurred in class &1, method &2."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"035",
+    "TEXT":"Invalid method &2 in class &1."
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"036",
+    "TEXT":"Error occurred while creating an instance of class &1."
+   }
+  ]
+ },
+ {
+  "table":"T100A",
+  "data":
+  [
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MASTERLANG":"E",
+    "APPLCLASS":"",
+    "RESPUSER":"D000101",
+    "LASTUSER":"D000101",
+    "LDATE":"0000-00-00",
+    "LTIME":"00:00:00",
+    "STEXT":"CDS ALV Framework"
+   }
+  ]
+ },
+ {
+  "table":"T100T",
+  "data":
+  [
+   {
+    "SPRSL":"D",
+    "ARBGB":"ZCDS_ALV",
+    "STEXT":"CDS ALV Framework"
+   },
+   {
+    "SPRSL":"E",
+    "ARBGB":"ZCDS_ALV",
+    "STEXT":"CDS ALV Framework"
+   }
+  ]
+ },
+ {
+  "table":"T100U",
+  "data":
+  [
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"001",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"002",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"003",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"004",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"005",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"006",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"007",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"008",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"009",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"010",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"011",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"012",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"013",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"014",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"015",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"016",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"017",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"018",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"019",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"020",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"021",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"022",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"023",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"024",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"025",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"026",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"027",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"028",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"029",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"030",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"031",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"032",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"033",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"034",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"035",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   },
+   {
+    "ARBGB":"ZCDS_ALV",
+    "MSGNR":"036",
+    "NAME":"D000101",
+    "DATUM":"0000-00-00",
+    "SELFDEF":"3"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"MSAG",
+    "OBJ_NAME":"ZCDS_ALV",
+    "KORRNUM":"",
+    "SRCSYSTEM":"...",
+    "AUTHOR":"D000101",
+    "SRCDEP":"",
+    "DEVCLASS":"ZCDS_ALV",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"E",
+    "VERSID":"",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2023-11-30",
+    "CHECK_DATE":"2023-11-30",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]

@@ -1,0 +1,134 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"I01",
+    "LANG":"D",
+    "ENTRY":"Selektionskriterien",
+    "LENGTH":29
+   },
+   {
+    "ID":"I",
+    "KEY":"I01",
+    "LANG":"E",
+    "ENTRY":"Selection criteria",
+    "LENGTH":29
+   },
+   {
+    "ID":"I",
+    "KEY":"S01",
+    "LANG":"D",
+    "ENTRY":"Anzahl beschränken auf",
+    "LENGTH":44
+   },
+   {
+    "ID":"I",
+    "KEY":"S01",
+    "LANG":"E",
+    "ENTRY":"Maximum number of records",
+    "LENGTH":44
+   },
+   {
+    "ID":"I",
+    "KEY":"S02",
+    "LANG":"D",
+    "ENTRY":"Keine Beschränkung",
+    "LENGTH":28
+   },
+   {
+    "ID":"I",
+    "KEY":"S02",
+    "LANG":"E",
+    "ENTRY":"No restriction",
+    "LENGTH":28
+   },
+   {
+    "ID":"I",
+    "KEY":"S03",
+    "LANG":"D",
+    "ENTRY":"Aufruf mit FORALL-Tabelle",
+    "LENGTH":50
+   },
+   {
+    "ID":"I",
+    "KEY":"S03",
+    "LANG":"E",
+    "ENTRY":"called with FORALL table",
+    "LENGTH":50
+   },
+   {
+    "ID":"I",
+    "KEY":"S04",
+    "LANG":"D",
+    "ENTRY":"Memory-ID",
+    "LENGTH":19
+   },
+   {
+    "ID":"I",
+    "KEY":"S04",
+    "LANG":"E",
+    "ENTRY":"Memory ID",
+    "LENGTH":19
+   },
+   {
+    "ID":"I",
+    "KEY":"S05",
+    "LANG":"D",
+    "ENTRY":"Anzeige im Split-Screen",
+    "LENGTH":46
+   },
+   {
+    "ID":"I",
+    "KEY":"S05",
+    "LANG":"E",
+    "ENTRY":"Display in split screen",
+    "LENGTH":46
+   },
+   {
+    "ID":"I",
+    "KEY":"S06",
+    "LANG":"D",
+    "ENTRY":"Selektionsmodus",
+    "LENGTH":25
+   },
+   {
+    "ID":"I",
+    "KEY":"S06",
+    "LANG":"E",
+    "ENTRY":"Selection mode",
+    "LENGTH":25
+   },
+   {
+    "ID":"I",
+    "KEY":"S07",
+    "LANG":"D",
+    "ENTRY":"Anzeigemodus",
+    "LENGTH":22
+   },
+   {
+    "ID":"I",
+    "KEY":"S07",
+    "LANG":"E",
+    "ENTRY":"Display mode",
+    "LENGTH":22
+   },
+   {
+    "ID":"I",
+    "KEY":"S08",
+    "LANG":"D",
+    "ENTRY":"Layout",
+    "LENGTH":16
+   },
+   {
+    "ID":"I",
+    "KEY":"S08",
+    "LANG":"E",
+    "ENTRY":"Layout",
+    "LENGTH":16
+   }
+  ]
+ }
+]

@@ -1,0 +1,118 @@
+[
+ {
+  "table":"DD04L",
+  "data":
+  [
+   {
+    "ROLLNAME":"ZCDS_ALV_SEMANTIC_ACTION",
+    "AS4LOCAL":"L",
+    "AS4VERS":0,
+    "DOMNAME":"TEXT60",
+    "ROUTPUTLEN":0,
+    "MEMORYID":"",
+    "LOGFLAG":"X",
+    "HEADLEN":55,
+    "SCRLEN1":10,
+    "SCRLEN2":20,
+    "SCRLEN3":40,
+    "ACTFLAG":"",
+    "APPLCLASS":"",
+    "AUTHCLASS":0,
+    "AS4USER":"D000101",
+    "AS4DATE":"0000-00-00",
+    "AS4TIME":"00:00:00",
+    "DTELMASTER":"E",
+    "RESERVEDTE":"",
+    "DTELGLOBAL":"",
+    "SHLPNAME":"",
+    "SHLPFIELD":"",
+    "DEFFDNAME":"",
+    "DATATYPE":"CHAR",
+    "LENG":60,
+    "DECIMALS":0,
+    "OUTPUTLEN":60,
+    "LOWERCASE":"X",
+    "SIGNFLAG":"",
+    "CONVEXIT":"",
+    "VALEXI":"",
+    "ENTITYTAB":"",
+    "REFKIND":"D",
+    "REFTYPE":"",
+    "PROXYTYPE":"",
+    "LTRFLDDIS":"",
+    "BIDICTRLC":"",
+    "NOHISTORY":"",
+    "ABAP_LANGUAGE_VERSION":""
+   }
+  ]
+ },
+ {
+  "table":"DD04T",
+  "data":
+  [
+   {
+    "ROLLNAME":"ZCDS_ALV_SEMANTIC_ACTION",
+    "DDLANGUAGE":"D",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Semantische Aktion (für Intent-Based Navigation)",
+    "REPTEXT":"Semantische Aktion",
+    "SCRTEXT_S":"Aktion",
+    "SCRTEXT_M":"Semantische Aktion",
+    "SCRTEXT_L":"Semantische Aktion"
+   },
+   {
+    "ROLLNAME":"ZCDS_ALV_SEMANTIC_ACTION",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Semantic action (for Intent-Based Navigation)",
+    "REPTEXT":"Semantic action",
+    "SCRTEXT_S":"Action",
+    "SCRTEXT_M":"Semantic action",
+    "SCRTEXT_L":"Semantic action"
+   }
+  ]
+ },
+ {
+  "table":"DDTYPES",
+  "data":
+  [
+   {
+    "TYPENAME":"ZCDS_ALV_SEMANTIC_ACTION",
+    "STATE":"N",
+    "TYPEKIND":"DTEL"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"DTEL",
+    "OBJ_NAME":"ZCDS_ALV_SEMANTIC_ACTION",
+    "KORRNUM":"",
+    "SRCSYSTEM":"...",
+    "AUTHOR":"D000101",
+    "SRCDEP":"",
+    "DEVCLASS":"ZCDS_ALV",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"E",
+    "VERSID":"",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2023-11-30",
+    "CHECK_DATE":"2023-11-30",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]

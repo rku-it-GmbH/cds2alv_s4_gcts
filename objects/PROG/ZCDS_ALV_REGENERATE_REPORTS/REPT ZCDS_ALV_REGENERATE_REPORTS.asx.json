@@ -1,0 +1,22 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"D",
+    "ENTRY":"Erneute Generierung aller Reports zu CDS-Views",
+    "LENGTH":46
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"Regenerate all reports for CDS views",
+    "LENGTH":70
+   }
+  ]
+ }
+]

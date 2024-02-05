@@ -1,0 +1,58 @@
+[
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"PARA",
+    "OBJ_NAME":"ZCDS_ALV_CDS_VIEW",
+    "KORRNUM":"",
+    "SRCSYSTEM":"...",
+    "AUTHOR":"D000101",
+    "SRCDEP":"",
+    "DEVCLASS":"ZCDS_ALV",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"E",
+    "VERSID":"",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2023-10-20",
+    "CHECK_DATE":"2023-10-20",
+    "CHECK_CFG":""
+   }
+  ]
+ },
+ {
+  "table":"TPARA",
+  "data":
+  [
+   {
+    "PARAMID":"ZCDS_ALV_CDS_VIEW",
+    "PARTEXT":""
+   }
+  ]
+ },
+ {
+  "table":"TPARAT",
+  "data":
+  [
+   {
+    "PARAMID":"ZCDS_ALV_CDS_VIEW",
+    "SPRACHE":"D",
+    "PARTEXT":"CDS-View zur Anzeige im ALV"
+   },
+   {
+    "PARAMID":"ZCDS_ALV_CDS_VIEW",
+    "SPRACHE":"E",
+    "PARTEXT":"CDS view for display in ALV"
+   }
+  ]
+ }
+]

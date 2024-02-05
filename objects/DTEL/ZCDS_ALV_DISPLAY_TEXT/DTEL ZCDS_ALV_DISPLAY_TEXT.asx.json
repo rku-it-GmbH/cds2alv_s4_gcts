@@ -1,0 +1,118 @@
+[
+ {
+  "table":"DD04L",
+  "data":
+  [
+   {
+    "ROLLNAME":"ZCDS_ALV_DISPLAY_TEXT",
+    "AS4LOCAL":"L",
+    "AS4VERS":0,
+    "DOMNAME":"ZCDS_ALV_DISPLAY_TEXT",
+    "ROUTPUTLEN":0,
+    "MEMORYID":"",
+    "LOGFLAG":"X",
+    "HEADLEN":55,
+    "SCRLEN1":10,
+    "SCRLEN2":20,
+    "SCRLEN3":40,
+    "ACTFLAG":"",
+    "APPLCLASS":"",
+    "AUTHCLASS":0,
+    "AS4USER":"D000101",
+    "AS4DATE":"0000-00-00",
+    "AS4TIME":"00:00:00",
+    "DTELMASTER":"E",
+    "RESERVEDTE":"",
+    "DTELGLOBAL":"",
+    "SHLPNAME":"",
+    "SHLPFIELD":"",
+    "DEFFDNAME":"",
+    "DATATYPE":"CHAR",
+    "LENG":40,
+    "DECIMALS":0,
+    "OUTPUTLEN":40,
+    "LOWERCASE":"X",
+    "SIGNFLAG":"",
+    "CONVEXIT":"",
+    "VALEXI":"",
+    "ENTITYTAB":"",
+    "REFKIND":"D",
+    "REFTYPE":"",
+    "PROXYTYPE":"",
+    "LTRFLDDIS":"",
+    "BIDICTRLC":"",
+    "NOHISTORY":"",
+    "ABAP_LANGUAGE_VERSION":""
+   }
+  ]
+ },
+ {
+  "table":"DD04T",
+  "data":
+  [
+   {
+    "ROLLNAME":"ZCDS_ALV_DISPLAY_TEXT",
+    "DDLANGUAGE":"D",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"Text für alternative Anzeige",
+    "REPTEXT":"Text für alternative Anzeige",
+    "SCRTEXT_S":"Alt. Anz.",
+    "SCRTEXT_M":"Text f. alt. Anzeige",
+    "SCRTEXT_L":"Text für alternative Anzeige"
+   },
+   {
+    "ROLLNAME":"ZCDS_ALV_DISPLAY_TEXT",
+    "DDLANGUAGE":"E",
+    "AS4LOCAL":"N",
+    "AS4VERS":0,
+    "DDTEXT":"text for alternative display mode",
+    "REPTEXT":"text for alternative display mode",
+    "SCRTEXT_S":"Alt. Disp.",
+    "SCRTEXT_M":"text f. alt. disp.",
+    "SCRTEXT_L":"text for alternative display mode"
+   }
+  ]
+ },
+ {
+  "table":"DDTYPES",
+  "data":
+  [
+   {
+    "TYPENAME":"ZCDS_ALV_DISPLAY_TEXT",
+    "STATE":"N",
+    "TYPEKIND":"DTEL"
+   }
+  ]
+ },
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"DTEL",
+    "OBJ_NAME":"ZCDS_ALV_DISPLAY_TEXT",
+    "KORRNUM":"",
+    "SRCSYSTEM":"...",
+    "AUTHOR":"D000101",
+    "SRCDEP":"",
+    "DEVCLASS":"ZCDS_ALV",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"E",
+    "VERSID":"",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2023-11-30",
+    "CHECK_DATE":"2023-11-30",
+    "CHECK_CFG":""
+   }
+  ]
+ }
+]

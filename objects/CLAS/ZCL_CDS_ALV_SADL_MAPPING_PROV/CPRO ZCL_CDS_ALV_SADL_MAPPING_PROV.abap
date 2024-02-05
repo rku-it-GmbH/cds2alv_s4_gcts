@@ -1,0 +1,2 @@
+  PROTECTED SECTION.
+    METHODS get_sadl_definition REDEFINITION.

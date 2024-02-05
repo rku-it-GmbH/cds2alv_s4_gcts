@@ -1,0 +1,36 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"I",
+    "KEY":"DIS",
+    "LANG":"D",
+    "ENTRY":"Anzeige im ALV-Grid",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"DIS",
+    "LANG":"E",
+    "ENTRY":"Display in alv grid",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"SEL",
+    "LANG":"D",
+    "ENTRY":"Selektion von der Datenbank",
+    "LENGTH":100
+   },
+   {
+    "ID":"I",
+    "KEY":"SEL",
+    "LANG":"E",
+    "ENTRY":"Select from database",
+    "LENGTH":100
+   }
+  ]
+ }
+]

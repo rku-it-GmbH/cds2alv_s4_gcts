@@ -1,0 +1,66 @@
+[
+ {
+  "table":"TADIR",
+  "data":
+  [
+   {
+    "PGMID":"R3TR",
+    "OBJECT":"PROG",
+    "OBJ_NAME":"ZCDS_ALV_DEMO",
+    "KORRNUM":"",
+    "SRCSYSTEM":"...",
+    "AUTHOR":"D000101",
+    "SRCDEP":"",
+    "DEVCLASS":"ZCDS_ALV_DEMO",
+    "GENFLAG":"",
+    "EDTFLAG":"",
+    "CPROJECT":" S",
+    "MASTERLANG":"E",
+    "VERSID":"",
+    "PAKNOCHECK":"",
+    "OBJSTABLTY":"",
+    "COMPONENT":"",
+    "CRELEASE":"",
+    "DELFLAG":"",
+    "TRANSLTTXT":"",
+    "CREATED_ON":"2023-11-30",
+    "CHECK_DATE":"2023-11-30",
+    "CHECK_CFG":""
+   }
+  ]
+ },
+ {
+  "table":"TRDIR",
+  "data":
+  [
+   {
+    "NAME":"ZCDS_ALV_DEMO",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "SUBC":"1",
+    "UNAM":"D000101",
+    "RMAND":"100",
+    "RLOAD":"E",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   }
+  ]
+ },
+ {
+  "table":"TRDIRT",
+  "data":
+  [
+   {
+    "NAME":"ZCDS_ALV_DEMO",
+    "SPRSL":"D",
+    "TEXT":"Demoprogramm für das CDS ALV Framework"
+   },
+   {
+    "NAME":"ZCDS_ALV_DEMO",
+    "SPRSL":"E",
+    "TEXT":"CDS ALV demo program"
+   }
+  ]
+ }
+]

@@ -1,0 +1,78 @@
+[
+ {
+  "table":"TEXTPOOLT",
+  "data":
+  [
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"D",
+    "ENTRY":"Demoprogramm für das CDS ALV Framework",
+    "LENGTH":38
+   },
+   {
+    "ID":"R",
+    "KEY":"",
+    "LANG":"E",
+    "ENTRY":"CDS ALV demo program",
+    "LENGTH":70
+   },
+   {
+    "ID":"S",
+    "KEY":"P_MAXREC",
+    "LANG":"D",
+    "ENTRY":"D       .",
+    "LENGTH":9
+   },
+   {
+    "ID":"S",
+    "KEY":"P_MAXREC",
+    "LANG":"E",
+    "ENTRY":"D       .",
+    "LENGTH":9
+   },
+   {
+    "ID":"S",
+    "KEY":"P_NO_MAX",
+    "LANG":"D",
+    "ENTRY":"        Keine Beschränkung",
+    "LENGTH":26
+   },
+   {
+    "ID":"S",
+    "KEY":"P_NO_MAX",
+    "LANG":"E",
+    "ENTRY":"        No restriction",
+    "LENGTH":38
+   },
+   {
+    "ID":"S",
+    "KEY":"P_SPLIT",
+    "LANG":"D",
+    "ENTRY":"        Anzeige im Split Screen",
+    "LENGTH":31
+   },
+   {
+    "ID":"S",
+    "KEY":"P_SPLIT",
+    "LANG":"E",
+    "ENTRY":"        Display in split screen",
+    "LENGTH":38
+   },
+   {
+    "ID":"S",
+    "KEY":"SO_KEY",
+    "LANG":"D",
+    "ENTRY":"        Schlüssel",
+    "LENGTH":17
+   },
+   {
+    "ID":"S",
+    "KEY":"SO_KEY",
+    "LANG":"E",
+    "ENTRY":"        Key",
+    "LENGTH":38
+   }
+  ]
+ }
+]
