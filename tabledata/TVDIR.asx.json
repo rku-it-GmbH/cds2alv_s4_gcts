@@ -1,0 +1,23 @@
+[
+ {
+  "table":"TVDIR",
+  "data":
+  [
+   {
+    "TABNAME":"ZMCDSALVPROGRAM",
+    "AREA":"ZCDS_ALV_TABLES",
+    "DEVCLASS":"ZCDS_ALV",
+    "TYPE":"1",
+    "LISTE":6,
+    "DETAIL":0,
+    "OCCURS":0,
+    "CLTCODE":"",
+    "BASTAB":"",
+    "NEWGENER":"",
+    "GENDATE":"2024-04-02",
+    "GENTIME":"11:28:34",
+    "FLAG":"X"
+   }
+  ]
+ }
+]

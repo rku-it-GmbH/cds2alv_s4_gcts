@@ -1,0 +1,18 @@
+[
+ {
+  "table":"TVDIR",
+  "index":
+  [
+   {
+    "columns":
+    [
+     {
+      "key":"TABNAME",
+      "value":"ZMCDSALVPROGRAM"
+     }
+    ],
+    "hash":"8kb/eBbnsUsA7neMJu4GP3IRv+A="
+   }
+  ]
+ }
+]

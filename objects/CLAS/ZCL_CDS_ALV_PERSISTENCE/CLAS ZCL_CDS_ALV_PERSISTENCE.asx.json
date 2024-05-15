@@ -83,6 +83,162 @@
   ]
  },
  {
+  "table":"SEOCOMPO",
+  "data":
+  [
+   {
+    "CLSNAME":"ZCL_CDS_ALV_PERSISTENCE",
+    "CMPNAME":"EXISTS_REPORT_FOR_CDS_VIEW",
+    "CMPTYPE":1,
+    "MTDTYPE":0
+   },
+   {
+    "CLSNAME":"ZCL_CDS_ALV_PERSISTENCE",
+    "CMPNAME":"GET_REPORT_HEADER",
+    "CMPTYPE":1,
+    "MTDTYPE":0
+   }
+  ]
+ },
+ {
+  "table":"SEOCOMPODF",
+  "data":
+  [
+   {
+    "CLSNAME":"ZCL_CDS_ALV_PERSISTENCE",
+    "CMPNAME":"EXISTS_REPORT_FOR_CDS_VIEW",
+    "VERSION":1,
+    "ALIAS":"X",
+    "REDEFIN":"",
+    "EXPOSURE":0,
+    "STATE":1,
+    "EDITORDER":0,
+    "LOCKED":"",
+    "DISPID":0,
+    "R3RELEASE":"",
+    "AUTHOR":"",
+    "CREATEDON":"0000-00-00",
+    "CHANGEDBY":"",
+    "CHANGEDON":"0000-00-00",
+    "MTDDECLTYP":0,
+    "MTDABSTRCT":"",
+    "MTDFINAL":"",
+    "DSRNOTEOM":"",
+    "EDTX":"",
+    "MTDNEWEXC":"",
+    "MTDREPLACE":"",
+    "MTDOPTNL":"",
+    "MTDAMDPRDONLY":"",
+    "MTDAMDPCDSCLNT":"",
+    "ATTDECLTYP":0,
+    "ATTDYNAMIC":"",
+    "ATTGETMTD":"",
+    "ATTSETMTD":"",
+    "ATTRDONLY":"",
+    "ATTVALUE":"",
+    "ATTPERSIST":"",
+    "ATTBUSOBJ":"",
+    "ATTKEYFLD":"",
+    "ATTEXPVIRT":0,
+    "EVTDECLTYP":0,
+    "TYPDUMMY":"",
+    "TYPTYPE":0,
+    "TYPE":"",
+    "TABLEOF":"",
+    "SRCROW1":0,
+    "SRCCOLUMN1":0,
+    "SRCROW2":0,
+    "SRCCOLUMN2":0,
+    "REFCLSNAME":"ZIF_CDS_ALV_PERSISTENCE",
+    "REFINTNAME":"",
+    "REFCMPNAME":"EXISTS_REPORT_FOR_CDS_VIEW",
+    "BCMTDINST":"",
+    "BCMTDCAT":0,
+    "BCMTDDIA":"",
+    "BCMTDCOM":"",
+    "BCMTDSYN":0,
+    "BCEVTCAT":0,
+    "TYPESRC_LENG":0,
+    "TYPESRC":""
+   },
+   {
+    "CLSNAME":"ZCL_CDS_ALV_PERSISTENCE",
+    "CMPNAME":"GET_REPORT_HEADER",
+    "VERSION":1,
+    "ALIAS":"X",
+    "REDEFIN":"",
+    "EXPOSURE":0,
+    "STATE":1,
+    "EDITORDER":0,
+    "LOCKED":"",
+    "DISPID":0,
+    "R3RELEASE":"756",
+    "AUTHOR":"",
+    "CREATEDON":"0000-00-00",
+    "CHANGEDBY":"",
+    "CHANGEDON":"0000-00-00",
+    "MTDDECLTYP":0,
+    "MTDABSTRCT":"",
+    "MTDFINAL":"",
+    "DSRNOTEOM":"",
+    "EDTX":"",
+    "MTDNEWEXC":"",
+    "MTDREPLACE":"",
+    "MTDOPTNL":"",
+    "MTDAMDPRDONLY":"",
+    "MTDAMDPCDSCLNT":"",
+    "ATTDECLTYP":0,
+    "ATTDYNAMIC":"",
+    "ATTGETMTD":"",
+    "ATTSETMTD":"",
+    "ATTRDONLY":"",
+    "ATTVALUE":"",
+    "ATTPERSIST":"",
+    "ATTBUSOBJ":"",
+    "ATTKEYFLD":"",
+    "ATTEXPVIRT":0,
+    "EVTDECLTYP":0,
+    "TYPDUMMY":"",
+    "TYPTYPE":0,
+    "TYPE":"",
+    "TABLEOF":"",
+    "SRCROW1":0,
+    "SRCCOLUMN1":0,
+    "SRCROW2":0,
+    "SRCCOLUMN2":0,
+    "REFCLSNAME":"ZIF_CDS_ALV_PERSISTENCE",
+    "REFINTNAME":"",
+    "REFCMPNAME":"GET_REPORT_HEADER",
+    "BCMTDINST":"",
+    "BCMTDCAT":0,
+    "BCMTDDIA":"",
+    "BCMTDCOM":"",
+    "BCMTDSYN":0,
+    "BCEVTCAT":0,
+    "TYPESRC_LENG":0,
+    "TYPESRC":""
+   }
+  ]
+ },
+ {
+  "table":"SEOCOMPOTX",
+  "data":
+  [
+   {
+    "CLSNAME":"ZCL_CDS_ALV_PERSISTENCE",
+    "CMPNAME":"EXISTS_REPORT_FOR_CDS_VIEW",
+    "LANGU":"E",
+    "DESCRIPT":""
+   },
+   {
+    "CLSNAME":"ZCL_CDS_ALV_PERSISTENCE",
+    "CMPNAME":"GET_REPORT_HEADER",
+    "LANGU":"E",
+    "DESCRIPT":""
+   }
+  ]
+ },
+ {
   "table":"SEOMETAREL",
   "data":
   [
@@ -198,6 +354,12 @@
     "METHODINDX":9,
     "METHODNAME":"ZIF_CDS_ALV_PERSISTENCE~SET_REPORT_EXTENSIONS",
     "FLAGS":0
+   },
+   {
+    "CLASSNAME":"ZCL_CDS_ALV_PERSISTENCE",
+    "METHODINDX":10,
+    "METHODNAME":"ZIF_CDS_ALV_PERSISTENCE~GET_REPORT_HEADER",
+    "FLAGS":0
    }
   ]
  },
@@ -243,6 +405,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_PERSISTENCE=======CI",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -255,6 +418,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_PERSISTENCE=======CM001",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -267,6 +431,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_PERSISTENCE=======CM002",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -303,6 +468,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_PERSISTENCE=======CM005",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -327,6 +493,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_PERSISTENCE=======CM007",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -339,6 +506,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_PERSISTENCE=======CM008",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -362,7 +530,21 @@
     "UCCHECK":"X"
    },
    {
+    "NAME":"ZCL_CDS_ALV_PERSISTENCE=======CM00A",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"D000101",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
     "NAME":"ZCL_CDS_ALV_PERSISTENCE=======CO",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",

@@ -14,13 +14,15 @@
     ENDLOOP.
 
     IF line_exists( standard_function_codes[ table_line = e_ucomm ] ).
-      dispatch_standard_function( i_function = e_ucomm i_selected_rows = <selected_rows> ).
+      dispatch_standard_function( i_function      = e_ucomm
+                                  i_selected_rows = <selected_rows> ).
       RETURN.
     ENDIF.
 
     TRY.
         DATA(field_action) = field_actions[ user_command = e_ucomm ].
-        dispatch_mass_action( i_field_action = field_action i_selected_rows = <selected_rows> ).
+        dispatch_mass_action( i_field_action  = field_action
+                              i_selected_rows = <selected_rows> ).
       CATCH cx_sy_itab_line_not_found.
     ENDTRY.
   ENDMETHOD.

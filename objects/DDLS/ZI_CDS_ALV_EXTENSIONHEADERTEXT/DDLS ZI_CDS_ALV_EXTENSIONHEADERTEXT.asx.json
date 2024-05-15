@@ -9,7 +9,7 @@
     "AS4USER":"D000101",
     "AS4DATE":"0000-00-00",
     "AS4TIME":"00:00:00",
-    "SOURCE":"@AbapCatalog.sqlViewName: 'ZICDSALVEXTHDRT'\r\n@AbapCatalog.compiler.compareFilter: true\r\n@AbapCatalog.preserveKey: true\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@EndUserText.label: 'Erweiterungen von Reports für CDS-Views (Texte)'\r\n@VDM.viewType: #BASIC\r\ndefine view ZI_CDS_ALV_ExtensionHeaderText as select from zcds_alv_exthdrt \r\n{\r\n    key spras          as Language,\r\n    key extension_name as ExtensionName,\r\n    extension_text     as ExtensionText,\r\n    selection_text     as SelectionText,\r\n    display_text       as DisplayText\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZCDS_ALV_EXTHDRT\"\n],\n\"ASSOCIATED\":\n[],\n\"BASE\":\n[],\n\"ANNO_REF\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
+    "SOURCE":"@AbapCatalog.sqlViewName: 'ZICDSALVEXTHDRT'\r\n@AbapCatalog.compiler.compareFilter: true\r\n@AbapCatalog.preserveKey: true\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@EndUserText.label: 'Erweiterungen von Reports für CDS-Views (Texte)'\r\n@VDM.viewType: #BASIC\r\ndefine view ZI_CDS_ALV_ExtensionHeaderText as select from zcds_alv_exthdrt \r\n{\r\n    key spras          as Language,\r\n    key extension_name as ExtensionName,\r\n    extension_text     as ExtensionText,\r\n    selection_text     as SelectionText,\r\n    display_text       as DisplayText\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZCDS_ALV_EXTHDRT\"\n],\n\"ASSOCIATED\":\n[],\n\"BASE\":\n[],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
     "PARENTNAME":"",
     "ACTFLAG":"",
     "CHGFLAG":"",

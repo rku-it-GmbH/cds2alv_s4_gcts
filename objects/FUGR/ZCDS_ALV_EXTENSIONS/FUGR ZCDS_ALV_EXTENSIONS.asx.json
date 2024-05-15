@@ -168,6 +168,11 @@
     "SPRAS":"D",
     "AREA":"ZCDS_ALV_EXTENSIONS",
     "AREAT":"Dialog zur Verwaltung von Erweiterungen"
+   },
+   {
+    "SPRAS":"E",
+    "AREA":"ZCDS_ALV_EXTENSIONS",
+    "AREAT":""
    }
   ]
  },
@@ -339,6 +344,11 @@
    {
     "NAME":"LZCDS_ALV_EXTENSIONSUXX",
     "SPRSL":"D",
+    "TEXT":"LZCDS_ALV_EXTENSIONSUXX"
+   },
+   {
+    "NAME":"LZCDS_ALV_EXTENSIONSUXX",
+    "SPRSL":"E",
     "TEXT":"LZCDS_ALV_EXTENSIONSUXX"
    },
    {

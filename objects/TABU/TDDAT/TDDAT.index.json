@@ -1,0 +1,18 @@
+[
+ {
+  "table":"TDDAT",
+  "index":
+  [
+   {
+    "columns":
+    [
+     {
+      "key":"TABNAME",
+      "value":"ZMCDSALVPROGRAM"
+     }
+    ],
+    "hash":"pYYVKDvQ4P2O41X/atl+EIMaf7s="
+   }
+  ]
+ }
+]

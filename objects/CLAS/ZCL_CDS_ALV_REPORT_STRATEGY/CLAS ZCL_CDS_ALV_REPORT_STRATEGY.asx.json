@@ -1515,6 +1515,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_REPORT_STRATEGY===CM002",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",

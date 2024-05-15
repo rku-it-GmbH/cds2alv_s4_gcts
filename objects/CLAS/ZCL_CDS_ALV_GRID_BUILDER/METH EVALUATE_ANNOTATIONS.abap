@@ -88,7 +88,8 @@
               field_action-associationname = remove_quotes( ui_annotation-value ).
 
             WHEN 'UI.LINEITEM.DATAACTION'.
-              field_action-data_action = substring_after( val = remove_quotes( ui_annotation-value ) sub = 'BOPF:' ).
+              field_action-data_action = substring_after( val = remove_quotes( ui_annotation-value )
+                                                          sub = 'BOPF:' ).
 
             WHEN 'UI.LINEITEM.LABEL'.
               field_action-label = remove_quotes( ui_annotation-value ).
@@ -126,7 +127,7 @@
 
           WHEN '#FOR_INTENT_BASED_NAVIGATION'. " Button
             IF semantic_object IS NOT INITIAL AND field_action-semantic_action IS NOT INITIAL.
-              action_counter = action_counter + 1.
+              action_counter += 1.
               field_action-user_command    = |{ function_code_prefix }{ action_counter }|.
               field_action-semantic_object = semantic_object.
 
@@ -139,7 +140,7 @@
 
           WHEN '#WITH_NAVIGATION_PATH'. " Button
             IF field_action-associationname IS NOT INITIAL.
-              action_counter = action_counter + 1.
+              action_counter += 1.
               field_action-user_command = |{ function_code_prefix }{ action_counter }|.
 
               IF field_action-label IS INITIAL.
@@ -151,7 +152,7 @@
 
           WHEN '#FOR_ACTION'. " Button
             IF field_action-data_action IS NOT INITIAL.
-              action_counter = action_counter + 1.
+              action_counter += 1.
               field_action-user_command = |{ function_code_prefix }{ action_counter }|.
 
               IF field_action-label IS INITIAL.
@@ -172,8 +173,10 @@
     ENDLOOP.
 
     " Editable fields
-    update_enabled = xsdbool( line_exists( entity_annotations[ annoname = 'OBJECTMODEL.UPDATEENABLED' value = 'true' ] ) ).
-    delete_enabled = xsdbool( line_exists( entity_annotations[ annoname = 'OBJECTMODEL.DELETEENABLED' value = 'true' ] ) ).
+    update_enabled = xsdbool( line_exists( entity_annotations[ annoname = 'OBJECTMODEL.UPDATEENABLED'
+                                                               value    = 'true' ] ) ).
+    delete_enabled = xsdbool( line_exists( entity_annotations[ annoname = 'OBJECTMODEL.DELETEENABLED'
+                                                               value    = 'true' ] ) ).
 
     IF update_enabled = abap_true.
       LOOP AT ddfields ASSIGNING FIELD-SYMBOL(<ddfield>).
