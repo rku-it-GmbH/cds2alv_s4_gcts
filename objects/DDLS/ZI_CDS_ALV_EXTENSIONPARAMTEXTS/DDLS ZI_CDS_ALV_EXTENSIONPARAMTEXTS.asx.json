@@ -9,7 +9,7 @@
     "AS4USER":"D000101",
     "AS4DATE":"0000-00-00",
     "AS4TIME":"00:00:00",
-    "SOURCE":"@AbapCatalog.sqlViewName: 'ZICDSALVEXTPART'\r\n@AbapCatalog.compiler.compareFilter: true\r\n@AbapCatalog.preserveKey: true\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@EndUserText.label: 'Parametertexte einer Programmerweiterung'\r\n@VDM.viewType: #BASIC\r\ndefine view ZI_CDS_ALV_ExtensionParamTexts as select from zcds_alv_extpart \r\n{\r\n    key spras          as Language,\r\n    key extension_name as ExtensionName,\r\n    key parameter_name as ParameterName,\r\n    parameter_text     as ParameterText\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZCDS_ALV_EXTPART\"\n],\n\"ASSOCIATED\":\n[],\n\"BASE\":\n[],\n\"ANNO_REF\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
+    "SOURCE":"@AbapCatalog.sqlViewName: 'ZICDSALVEXTPART'\r\n@AbapCatalog.compiler.compareFilter: true\r\n@AbapCatalog.preserveKey: true\r\n@AccessControl.authorizationCheck: #NOT_REQUIRED\r\n@EndUserText.label: 'Parametertexte einer Programmerweiterung'\r\n@VDM.viewType: #BASIC\r\ndefine view ZI_CDS_ALV_ExtensionParamTexts as select from zcds_alv_extpart \r\n{\r\n    key spras          as Language,\r\n    key extension_name as ExtensionName,\r\n    key parameter_name as ParameterName,\r\n    parameter_text     as ParameterText\r\n}\r\n/*+[internal] {\n\"BASEINFO\":\n{\n\"FROM\":\n[\n\"ZCDS_ALV_EXTPART\"\n],\n\"ASSOCIATED\":\n[],\n\"BASE\":\n[],\n\"ANNO_REF\":\n[],\n\"SCALAR_FUNCTION\":\n[],\n\"VERSION\":0,\n\"ANNOREF_EVALUATION_ERROR\":\"\"\n}\n}*/",
     "PARENTNAME":"",
     "ACTFLAG":"",
     "CHGFLAG":"",

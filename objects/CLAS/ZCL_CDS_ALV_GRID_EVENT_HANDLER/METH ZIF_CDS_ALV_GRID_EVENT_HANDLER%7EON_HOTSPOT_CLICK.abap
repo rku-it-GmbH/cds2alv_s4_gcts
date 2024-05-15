@@ -9,8 +9,10 @@
     ENDIF.
 
     TRY.
-        DATA(field_action) = field_actions[ fieldname = e_column_id-fieldname hotspot = abap_true ].
-        dispatch_single_action( i_field_action = field_action i_selected_row = <selected_row> ).
+        DATA(field_action) = field_actions[ fieldname = e_column_id-fieldname
+                                            hotspot   = abap_true ].
+        dispatch_single_action( i_field_action = field_action
+                                i_selected_row = <selected_row> ).
       CATCH cx_sy_itab_line_not_found.
     ENDTRY.
   ENDMETHOD.

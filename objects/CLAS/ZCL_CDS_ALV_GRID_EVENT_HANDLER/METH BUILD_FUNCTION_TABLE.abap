@@ -1,6 +1,6 @@
   METHOD build_function_table.
-    additional_functions = VALUE #( FOR field_action IN field_actions WHERE
-                                    ( user_command IS NOT INITIAL )
+    additional_functions = VALUE #( FOR field_action IN field_actions
+                                    WHERE ( user_command IS NOT INITIAL )
                                     ( name = field_action-user_command
                                       text = field_action-label ) ).
 
@@ -30,7 +30,7 @@
              INTO TABLE standard_functions.
     ENDIF.
 
-    IF additional_functions IS NOT INITIAL.
+    IF additional_functions IS NOT INITIAL AND functions_display_mode = display_mode-dropdown_menu.
       INSERT VALUE #( name        = standard_function_code-additional_functions_menu
                       icon        = icon_context_menu
                       tooltip     = TEXT-005

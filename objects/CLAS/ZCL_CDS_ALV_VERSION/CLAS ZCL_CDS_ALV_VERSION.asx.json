@@ -104,7 +104,7 @@
     "EDITORDER":1,
     "LOCKED":"",
     "DISPID":0,
-    "R3RELEASE":"756",
+    "R3RELEASE":"",
     "AUTHOR":"",
     "CREATEDON":"0000-00-00",
     "CHANGEDBY":"",
@@ -124,7 +124,7 @@
     "ATTGETMTD":"",
     "ATTSETMTD":"",
     "ATTRDONLY":"",
-    "ATTVALUE":"'1.0.1'",
+    "ATTVALUE":"'1.1.1'",
     "ATTPERSIST":"",
     "ATTBUSOBJ":"",
     "ATTKEYFLD":"",
@@ -248,6 +248,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_VERSION===========CI",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -260,6 +261,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_VERSION===========CO",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -273,6 +275,7 @@
    {
     "NAME":"ZCL_CDS_ALV_VERSION===========CP",
     "EDTX":"X",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"K",
@@ -297,6 +300,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_VERSION===========CU",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",

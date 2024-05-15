@@ -375,6 +375,11 @@
     "SPRAS":"D",
     "AREA":"ZCDS_ALV_DISPLAY",
     "AREAT":"Anzeige des ALV-Grids für einen CDS-View"
+   },
+   {
+    "SPRAS":"E",
+    "AREA":"ZCDS_ALV_DISPLAY",
+    "AREAT":""
    }
   ]
  },
@@ -551,6 +556,11 @@
    {
     "NAME":"LZCDS_ALV_DISPLAYUXX",
     "SPRSL":"D",
+    "TEXT":"LZCDS_ALV_DISPLAYUXX"
+   },
+   {
+    "NAME":"LZCDS_ALV_DISPLAYUXX",
+    "SPRSL":"E",
     "TEXT":"LZCDS_ALV_DISPLAYUXX"
    },
    {

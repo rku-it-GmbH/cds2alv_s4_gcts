@@ -30,3 +30,7 @@
                 i_display   TYPE abap_bool
       CHANGING  c_value     TYPE any
       RAISING   zcx_cds_alv_message.
+
+    METHODS choose_value_help
+      CHANGING c_value_helps TYPE zcds_alv_valuehelp_definitions
+      RAISING  zcx_cds_alv_message.

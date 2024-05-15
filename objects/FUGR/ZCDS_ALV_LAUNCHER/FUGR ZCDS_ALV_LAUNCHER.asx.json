@@ -98,6 +98,11 @@
     "SPRAS":"D",
     "AREA":"ZCDS_ALV_LAUNCHER",
     "AREAT":"Starttransaktion für generierte Reports"
+   },
+   {
+    "SPRAS":"E",
+    "AREA":"ZCDS_ALV_LAUNCHER",
+    "AREAT":""
    }
   ]
  },
@@ -229,6 +234,11 @@
    {
     "NAME":"LZCDS_ALV_LAUNCHERUXX",
     "SPRSL":"D",
+    "TEXT":"LZCDS_ALV_LAUNCHERUXX"
+   },
+   {
+    "NAME":"LZCDS_ALV_LAUNCHERUXX",
+    "SPRSL":"E",
     "TEXT":"LZCDS_ALV_LAUNCHERUXX"
    },
    {

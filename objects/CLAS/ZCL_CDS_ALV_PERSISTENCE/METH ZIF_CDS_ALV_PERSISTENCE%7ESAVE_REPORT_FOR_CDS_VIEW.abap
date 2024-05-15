@@ -2,6 +2,14 @@
     DATA(program) = CORRESPONDING zcds_alv_program( i_program_info ).
     program-cds_view = i_cds_view.
 
+    IF exists_report_for_cds_view( i_cds_view = i_cds_view ).
+      DATA(program_header) = get_report_header( i_cds_view = i_cds_view ).
+
+      " These can be maintained via a view and need to be carried over
+      program-no_generation         = program_header-no_generation.
+      program-add_func_display_mode = program_header-add_func_display_mode.
+    ENDIF.
+
     MODIFY zcds_alv_program FROM @program.
     IF sy-subrc <> 0.
       RAISE EXCEPTION TYPE zcx_cds_alv_message

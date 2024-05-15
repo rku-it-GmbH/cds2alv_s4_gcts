@@ -4,10 +4,8 @@
     table_container = i_table_container.
 
     CREATE OBJECT alv_grid
-      EXPORTING
-        i_parent = i_container
-      EXCEPTIONS
-        OTHERS   = 1.
+      EXPORTING  i_parent = i_container
+      EXCEPTIONS OTHERS   = 1.
     IF sy-subrc <> 0.
       RAISE EXCEPTION TYPE zcx_cds_alv_message
             MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno

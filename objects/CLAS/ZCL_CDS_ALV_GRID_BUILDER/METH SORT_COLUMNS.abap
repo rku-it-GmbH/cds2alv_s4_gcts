@@ -11,9 +11,10 @@
     DATA(position) = 1.
 
     LOOP AT field_properties_table INTO DATA(field_properties) WHERE position IS NOT INITIAL.
-      INSERT VALUE #( fieldname = field_properties-fieldname position = position )
+      INSERT VALUE #( fieldname = field_properties-fieldname
+                      position  = position )
              INTO TABLE field_positions.
-      position = position + 1.
+      position += 1.
     ENDLOOP.
 
     LOOP AT fieldcatalog ASSIGNING FIELD-SYMBOL(<field>).
@@ -22,7 +23,7 @@
           <field>-col_pos = field_position-position.
         CATCH cx_sy_itab_line_not_found.
           <field>-col_pos = position.
-          position = position + 1.
+          position += 1.
       ENDTRY.
     ENDLOOP.
   ENDMETHOD.

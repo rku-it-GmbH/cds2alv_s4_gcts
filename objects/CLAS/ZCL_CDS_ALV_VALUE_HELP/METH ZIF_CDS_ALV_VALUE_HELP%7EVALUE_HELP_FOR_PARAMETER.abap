@@ -1,7 +1,16 @@
   METHOD zif_cds_alv_value_help~value_help_for_parameter.
     TRY.
         e_processed = abap_false.
-        DATA(value_help) = value_helps[ parameter_name = i_parname ].
+
+        DATA(value_helps_for_param) = VALUE zcds_alv_valuehelp_definitions( FOR x_value_help IN value_helps
+                                                                            WHERE ( parameter_name = i_parname )
+                                                                            ( x_value_help ) ).
+
+        IF lines( value_helps_for_param ) > 1.
+          choose_value_help( CHANGING c_value_helps = value_helps_for_param ).
+        ENDIF.
+
+        DATA(value_help) = value_helps_for_param[ parameter_name = i_parname ].
 
         IF     value_help-target_entity  IS NOT INITIAL
            AND value_help-target_element IS NOT INITIAL.

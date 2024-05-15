@@ -45,5 +45,8 @@
     METHODS build_layout.
     METHODS build_f4.
     METHODS build_exclude_functions.
-    METHODS build_event_handler.
+
+    METHODS build_event_handler
+      RAISING zcx_cds_alv_message.
+
     METHODS register_event_handlers.

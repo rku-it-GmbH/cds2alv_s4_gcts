@@ -1,7 +1,16 @@
   METHOD zif_cds_alv_value_help~value_help_for_element.
     TRY.
         e_processed = abap_false.
-        DATA(value_help) = value_helps[ fieldname = i_fieldname ].
+
+        DATA(value_helps_for_field) = VALUE zcds_alv_valuehelp_definitions( FOR x_value_help IN value_helps
+                                                                            WHERE ( fieldname = i_fieldname )
+                                                                            ( x_value_help ) ).
+
+        IF lines( value_helps_for_field ) > 1.
+          choose_value_help( CHANGING c_value_helps = value_helps_for_field ).
+        ENDIF.
+
+        DATA(value_help) = value_helps_for_field[ fieldname = i_fieldname ].
 
         IF     value_help-target_entity  IS NOT INITIAL
            AND value_help-target_element IS NOT INITIAL.

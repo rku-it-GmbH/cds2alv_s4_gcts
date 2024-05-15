@@ -27,7 +27,7 @@
             param_properties-label = remove_quotes( <param_annotation>-value ).
         ENDCASE.
 
-        IF <param_annotation>-annoname CP 'CONSUMPTION.VALUEHELPDEFINITION.*'.
+        IF <param_annotation>-annoname CP 'CONSUMPTION.VALUEHELPDEFINITION$*$.*'.
           param_properties-value_help = abap_true.
         ENDIF.
       ENDLOOP.
@@ -35,9 +35,12 @@
       " Selection Texts (from CDS-View-Annotation EndUser.Label or DDIC)
       IF param_properties-label IS INITIAL.
         CALL FUNCTION 'DDIF_FIELDLABEL_GET'
-          EXPORTING  tabname = param_properties-data_type
-          IMPORTING  label   = param_properties-label
-          EXCEPTIONS OTHERS  = 0.
+          EXPORTING
+            tabname = param_properties-data_type
+          IMPORTING
+            label   = param_properties-label
+          EXCEPTIONS
+            OTHERS  = 0.
       ENDIF.
 
       APPEND param_properties TO param_properties_tab.
@@ -86,7 +89,7 @@
           WHEN 'CONSUMPTION.FILTER.DEFAULTVALUE'.
             field_properties-default_value = remove_quotes( <element_annotation>-value ).
 
-          WHEN 'CONSUMPTION.VALUEHELP' OR 'CONSUMPTION.VALUEHELPDEFINITION'.
+          WHEN 'CONSUMPTION.VALUEHELP'.
             field_properties-value_help = abap_true.
 
           WHEN 'CONSUMPTION.HIDDEN'.
@@ -101,6 +104,10 @@
           WHEN 'ENDUSERTEXT.LABEL'.
             field_properties-label = remove_quotes( <element_annotation>-value ).
         ENDCASE.
+
+        IF <element_annotation>-annoname CP 'CONSUMPTION.VALUEHELPDEFINITION$*$.*'.
+          field_properties-value_help = abap_true.
+        ENDIF.
       ENDLOOP.
 
       IF field_properties-selection_type IS INITIAL.

@@ -12,6 +12,7 @@
     delete_enabled = i_delete_enabled.
     editable_fields = i_editable_fields.
     alternative_selection = i_alternative_selection.
+    functions_display_mode = i_functions_display_mode.
 
     ref_to_table = table_container->get_ref_to_table( ).
     build_function_table( ).
