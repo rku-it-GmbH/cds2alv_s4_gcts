@@ -5,12 +5,5 @@
                         i_memory      = i_memory
                         i_factory     = i_factory ).
 
-    selection = i_selection.
-    value_help = i_value_help.
-    action_handler = i_action_handler.
-    bopf_handler = i_bopf_handler.
-    navigation = i_navigation.
-    selection_screen = i_selection_screen.
-
     evaluate_annotations( ).
   ENDMETHOD.

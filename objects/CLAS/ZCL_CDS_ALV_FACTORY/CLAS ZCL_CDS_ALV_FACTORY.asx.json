@@ -1884,6 +1884,12 @@
     "METHODINDX":26,
     "METHODNAME":"ZIF_CDS_ALV_FACTORY~GET_VALUE_HELP",
     "FLAGS":0
+   },
+   {
+    "CLASSNAME":"ZCL_CDS_ALV_FACTORY",
+    "METHODINDX":27,
+    "METHODNAME":"ZIF_CDS_ALV_FACTORY~GET_ACTION_HANDLER",
+    "FLAGS":0
    }
   ]
  },
@@ -1953,6 +1959,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_FACTORY===========CM001",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -1965,6 +1972,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_FACTORY===========CM002",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -1977,6 +1985,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_FACTORY===========CM003",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -2253,6 +2262,19 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_FACTORY===========CM00Q",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"D000101",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_CDS_ALV_FACTORY===========CM00R",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",

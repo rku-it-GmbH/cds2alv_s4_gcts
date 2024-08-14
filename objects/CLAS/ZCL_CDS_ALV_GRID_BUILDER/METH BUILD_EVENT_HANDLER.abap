@@ -6,11 +6,13 @@
                                                               i_selection              = selection
                                                               i_value_help             = value_help
                                                               i_navigation             = navigation
+                                                              i_action_handler         = action_handler
                                                               i_bopf_handler           = bopf_handler
                                                               i_table_container        = table_container
                                                               i_selection_screen       = selection_screen
                                                               i_alternative_selection  = alternative_selection
                                                               i_field_actions          = field_actions
+                                                              i_has_bopf_object        = has_bopf_object
                                                               i_update_enabled         = update_enabled
                                                               i_delete_enabled         = delete_enabled
                                                               i_editable_fields        = editable_fields

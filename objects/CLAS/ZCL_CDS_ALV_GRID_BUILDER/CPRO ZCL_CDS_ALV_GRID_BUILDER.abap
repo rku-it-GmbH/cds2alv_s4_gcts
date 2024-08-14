@@ -16,25 +16,28 @@
            END OF ty_field_properties.
     TYPES ty_field_properties_table TYPE STANDARD TABLE OF ty_field_properties WITH EMPTY KEY.
 
-    DATA field_properties_table TYPE ty_field_properties_table.
-    DATA event_handlers         TYPE zcds_alv_grid_event_handlers.
-    DATA table_container        TYPE REF TO zif_cds_alv_table_container.
-    DATA selection              TYPE REF TO zif_cds_alv_selection.
-    DATA value_help             TYPE REF TO zif_cds_alv_value_help.
-    DATA bopf_handler           TYPE REF TO zif_cds_alv_bopf_handler.
-    DATA navigation             TYPE REF TO zif_cds_alv_navigation.
-    DATA selection_screen       TYPE REF TO zif_cds_alv_selection_screen.
-    DATA alternative_selection  TYPE REF TO zif_cds_alv_select_extension.
-    DATA alv_grid               TYPE REF TO cl_gui_alv_grid.
-    DATA field_actions          TYPE zcds_alv_field_actions.
-    DATA editable_fields        TYPE ddfieldnames.
-    DATA variant                TYPE disvariant.
-    DATA layout                 TYPE lvc_s_layo.
-    DATA exclude_functions      TYPE ui_functions.
-    DATA fieldcatalog           TYPE lvc_t_fcat.
-    DATA sort_order             TYPE lvc_t_sort.
-    DATA filter                 TYPE lvc_t_filt.
-    DATA value_help_fields      TYPE lvc_t_f4.
+    DATA field_properties_table   TYPE ty_field_properties_table.
+    DATA event_handlers           TYPE zcds_alv_grid_event_handlers.
+    DATA table_container          TYPE REF TO zif_cds_alv_table_container.
+    DATA selection                TYPE REF TO zif_cds_alv_selection.
+    DATA value_help               TYPE REF TO zif_cds_alv_value_help.
+    DATA action_handler           TYPE REF TO zif_cds_alv_action_handler.
+    DATA bopf_handler             TYPE REF TO zif_cds_alv_bopf_handler.
+    DATA navigation               TYPE REF TO zif_cds_alv_navigation.
+    DATA selection_screen         TYPE REF TO zif_cds_alv_selection_screen.
+    DATA alternative_selection    TYPE REF TO zif_cds_alv_select_extension.
+    DATA alv_grid                 TYPE REF TO cl_gui_alv_grid.
+    DATA field_actions            TYPE zcds_alv_field_actions.
+    DATA editable_fields          TYPE ddfieldnames.
+    DATA variant                  TYPE disvariant.
+    DATA layout                   TYPE lvc_s_layo.
+    DATA exclude_functions        TYPE ui_functions.
+    DATA fieldcatalog             TYPE lvc_t_fcat.
+    DATA sort_order               TYPE lvc_t_sort.
+    DATA filter                   TYPE lvc_t_filt.
+    DATA value_help_fields        TYPE lvc_t_f4.
+    DATA has_bopf_object          TYPE abap_bool.
+    DATA has_behaviour_definition TYPE abap_bool.
 
     METHODS evaluate_annotations REDEFINITION.
 

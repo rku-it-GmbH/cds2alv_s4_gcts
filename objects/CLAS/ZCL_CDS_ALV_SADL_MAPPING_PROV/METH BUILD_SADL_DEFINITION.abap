@@ -9,16 +9,16 @@
         DATA(entity_type) = entity->get_type( ).
         DATA(id) = convert_id( CONV #( entity_id ) ).
 
-*        " There is a known incompatibility between CDS View with parameters and virtual elements
-*        " Therefore the property 'exposure' is only set when the CDS view has no parameters
-*        entity->get_parameters( IMPORTING et_parameters = DATA(parameters) ).
-*        IF lines( parameters ) = 0.
-*          DATA(exposure) = 'TRUE'.
-*        ENDIF.
+        " There is a known incompatibility between CDS View with parameters and virtual elements
+        " Therefore the property 'exposure' is only set when the CDS view has no parameters
+        entity->get_parameters( IMPORTING et_parameters = DATA(parameters) ).
+        IF lines( parameters ) = 0.
+          DATA(exposure) = 'TRUE'.
+        ENDIF.
 
         " SADL definition according to CL_SADL_ENTITY_UTIL=>GET_SADL_FOR_ENTITY.
         INSERT VALUE #( name = id  type = entity_type  binding = entity_id ) INTO TABLE ms_sadl_definition-data_sources.
-        INSERT VALUE #( name = id  anchor = abap_true  data_source = id  max_edit_mode = 'RO'  id = id ) INTO TABLE ms_sadl_definition-structures.
+        INSERT VALUE #( name = id  anchor = abap_true  data_source = id  max_edit_mode = 'RO'  id = id exposure = exposure ) INTO TABLE ms_sadl_definition-structures.
         INSERT VALUE #( name = 'SADL_QUERY'  structure_id = id  id = 'QUERY' ) INTO TABLE ms_sadl_definition-mapped_queries ASSIGNING FIELD-SYMBOL(<query>).
         DATA(entity_consumption_info) = cl_sadl_entity_factory=>get_instance( )->get_entity_consumption_info( iv_id = entity_id  iv_type = entity_type ).
         entity_consumption_info->get_elements( IMPORTING et_elements = DATA(elements) ).

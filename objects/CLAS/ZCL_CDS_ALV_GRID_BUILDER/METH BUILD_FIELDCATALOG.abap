@@ -1,10 +1,13 @@
   METHOD build_fieldcatalog.
     CALL FUNCTION 'LVC_FIELDCATALOG_MERGE'
-      EXPORTING  i_structure_name       = cds_view
-      CHANGING   ct_fieldcat            = fieldcatalog
-      EXCEPTIONS inconsistent_interface = 1
-                 program_error          = 2
-                 OTHERS                 = 3.
+      EXPORTING
+        i_structure_name       = cds_view
+      CHANGING
+        ct_fieldcat            = fieldcatalog
+      EXCEPTIONS
+        inconsistent_interface = 1
+        program_error          = 2
+        OTHERS                 = 3.
     IF sy-subrc <> 0.
       RAISE EXCEPTION TYPE zcx_cds_alv_message
             MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno

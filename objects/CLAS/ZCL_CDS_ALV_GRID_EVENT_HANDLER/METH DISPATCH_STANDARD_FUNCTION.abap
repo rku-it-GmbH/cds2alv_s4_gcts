@@ -8,14 +8,20 @@
             toggle_change_mode( ).
 
           WHEN standard_function_code-delete.
-            IF bopf_handler IS BOUND.
+            IF has_bopf_object = abap_true AND bopf_handler IS BOUND.
               bopf_handler->delete( i_selected_rows ).
+              refresh( ).
+            ELSEIF has_behaviour_definition = abap_true AND action_handler IS BOUND.
+              action_handler->delete( i_selected_rows  ).
               refresh( ).
             ENDIF.
 
           WHEN standard_function_code-save.
-            IF bopf_handler IS BOUND.
+            IF has_bopf_object = abap_true AND bopf_handler IS BOUND.
               bopf_handler->update( i_selected_rows ).
+              refresh( ).
+            ELSEIF has_behaviour_definition = abap_true AND action_handler IS BOUND.
+              action_handler->update( i_selected_rows  ).
               refresh( ).
             ENDIF.
         ENDCASE.

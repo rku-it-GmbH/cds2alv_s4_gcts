@@ -88,8 +88,15 @@
               field_action-associationname = remove_quotes( ui_annotation-value ).
 
             WHEN 'UI.LINEITEM.DATAACTION'.
-              field_action-data_action = substring_after( val = remove_quotes( ui_annotation-value )
-                                                          sub = 'BOPF:' ).
+              IF ui_annotation-value CS 'BOPF:'.
+                field_action-is_bopf_action = abap_true.
+                field_action-data_action = substring_after( val = remove_quotes( ui_annotation-value )
+                                                            sub = 'BOPF:' ).
+
+              ELSE.
+                field_action-is_bopf_action = abap_false.
+                field_action-data_action = remove_quotes( ui_annotation-value ).
+              ENDIF.
 
             WHEN 'UI.LINEITEM.LABEL'.
               field_action-label = remove_quotes( ui_annotation-value ).
@@ -173,25 +180,42 @@
     ENDLOOP.
 
     " Editable fields
-    update_enabled = xsdbool( line_exists( entity_annotations[ annoname = 'OBJECTMODEL.UPDATEENABLED'
-                                                               value    = 'true' ] ) ).
-    delete_enabled = xsdbool( line_exists( entity_annotations[ annoname = 'OBJECTMODEL.DELETEENABLED'
-                                                               value    = 'true' ] ) ).
+    has_bopf_object = xsdbool( line_exists( entity_annotations[ annoname = 'OBJECTMODEL.TRANSACTIONALPROCESSINGENABLED'
+                                                                value    = 'true' ] ) ).
 
-    IF update_enabled = abap_true.
-      LOOP AT ddfields ASSIGNING FIELD-SYMBOL(<ddfield>).
-        IF line_exists( element_annotations[ elementname = <ddfield>-fieldname
-                                             annoname    = 'OBJECTMODEL.READONLY'
-                                             value       = 'true' ] ).
-          CONTINUE.
-        ENDIF.
+    IF has_bopf_object = abap_true.
+      update_enabled = xsdbool( line_exists( entity_annotations[ annoname = 'OBJECTMODEL.UPDATEENABLED'
+                                                                 value    = 'true' ] ) ).
+      delete_enabled = xsdbool( line_exists( entity_annotations[ annoname = 'OBJECTMODEL.DELETEENABLED'
+                                                                 value    = 'true' ] ) ).
 
-        READ TABLE field_properties_table ASSIGNING FIELD-SYMBOL(<field_properties>)
-             WITH KEY fieldname = <ddfield>-fieldname.
-        IF sy-subrc = 0.
-          <field_properties>-is_editable = abap_true.
-          INSERT <ddfield>-fieldname INTO TABLE editable_fields.
-        ENDIF.
-      ENDLOOP.
+      IF update_enabled = abap_true.
+        LOOP AT ddfields ASSIGNING FIELD-SYMBOL(<ddfield>).
+          IF line_exists( element_annotations[ elementname = <ddfield>-fieldname
+                                               annoname    = 'OBJECTMODEL.READONLY'
+                                               value       = 'true' ] ).
+            CONTINUE.
+          ENDIF.
+
+          READ TABLE field_properties_table ASSIGNING FIELD-SYMBOL(<field_properties>)
+               WITH KEY fieldname = <ddfield>-fieldname.
+          IF sy-subrc = 0.
+            <field_properties>-is_editable = abap_true.
+            INSERT <ddfield>-fieldname INTO TABLE editable_fields.
+          ENDIF.
+        ENDLOOP.
+      ENDIF.
+    ENDIF.
+
+    " RAP Integration
+    IF has_bopf_object = abap_false.
+      ddic_access->get_behaviour_details(
+        EXPORTING
+          i_cds_view        = cds_view
+        IMPORTING
+          e_has_bdef        = has_behaviour_definition
+          e_update_enabled  = update_enabled
+          e_delete_enabled  = delete_enabled
+          e_editable_fields = editable_fields ).
     ENDIF.
   ENDMETHOD.

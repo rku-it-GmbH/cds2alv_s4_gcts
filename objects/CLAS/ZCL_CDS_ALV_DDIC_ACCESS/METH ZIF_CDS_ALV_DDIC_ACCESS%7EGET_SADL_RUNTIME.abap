@@ -10,6 +10,7 @@
 
       CATCH cx_sadl_contract_violation cx_sadl_static cx_uuid_error INTO DATA(previous).
         RAISE EXCEPTION TYPE zcx_cds_alv_message
-          EXPORTING previous = previous.
+          EXPORTING
+            previous = previous.
     ENDTRY.
   ENDMETHOD.

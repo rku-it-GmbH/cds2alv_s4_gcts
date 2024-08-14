@@ -6,6 +6,7 @@
 
       CATCH cx_sadl_static INTO DATA(previous).
         RAISE EXCEPTION TYPE zcx_cds_alv_message
-          EXPORTING previous = previous.
+          EXPORTING
+            previous = previous.
     ENDTRY.
   ENDMETHOD.

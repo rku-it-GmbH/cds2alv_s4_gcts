@@ -26,11 +26,21 @@
           ENDIF.
 
         ELSEIF i_field_action-data_action IS NOT INITIAL.
-          IF bopf_handler IS BOUND.
-            bopf_handler->execute_action( EXPORTING i_action        = i_field_action-data_action
-                                                    i_selected_rows = i_selected_rows
-                                          IMPORTING e_refresh_after = refresh_after ).
-          ENDIF.
+          CASE i_field_action-is_bopf_action.
+            WHEN abap_true.
+              IF bopf_handler IS BOUND.
+                bopf_handler->execute_action( EXPORTING i_action        = i_field_action-data_action
+                                                        i_selected_rows = i_selected_rows
+                                              IMPORTING e_refresh_after = refresh_after ).
+              ENDIF.
+
+            WHEN abap_false.
+              IF action_handler IS BOUND.
+                action_handler->execute_action( EXPORTING i_action        = i_field_action-data_action
+                                                          i_selected_rows = i_selected_rows
+                                                IMPORTING e_refresh_after = refresh_after ).
+              ENDIF.
+          ENDCASE.
         ENDIF.
 
         IF refresh_after = abap_true.

@@ -11,6 +11,7 @@ CLASS zcl_cds_alv_grid_builder DEFINITION PUBLIC CREATE PUBLIC INHERITING FROM z
                 i_selection_screen TYPE REF TO zif_cds_alv_selection_screen
                 i_selection        TYPE REF TO zif_cds_alv_selection
                 i_value_help       TYPE REF TO zif_cds_alv_value_help
+                i_action_handler   TYPE REF TO zif_cds_alv_action_handler
                 i_bopf_handler     TYPE REF TO zif_cds_alv_bopf_handler
                 i_navigation       TYPE REF TO zif_cds_alv_navigation
       RAISING   zcx_cds_alv_message.

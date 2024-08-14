@@ -726,6 +726,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_SADL_MAPPING_PROV=CM002",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",

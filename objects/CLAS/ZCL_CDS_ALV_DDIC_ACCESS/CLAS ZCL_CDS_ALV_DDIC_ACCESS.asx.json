@@ -778,6 +778,12 @@
     "METHODINDX":10,
     "METHODNAME":"ZIF_CDS_ALV_DDIC_ACCESS~GET_SOURCE_ID",
     "FLAGS":0
+   },
+   {
+    "CLASSNAME":"ZCL_CDS_ALV_DDIC_ACCESS",
+    "METHODINDX":11,
+    "METHODNAME":"ZIF_CDS_ALV_DDIC_ACCESS~GET_BEHAVIOUR_DETAILS",
+    "FLAGS":0
    }
   ]
  },
@@ -859,6 +865,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_DDIC_ACCESS=======CM003",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -871,6 +878,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_DDIC_ACCESS=======CM004",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -895,6 +903,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_DDIC_ACCESS=======CM006",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -907,6 +916,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_DDIC_ACCESS=======CM007",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -919,6 +929,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_DDIC_ACCESS=======CM008",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -931,6 +942,7 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_DDIC_ACCESS=======CM009",
+    "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
@@ -943,6 +955,19 @@
    },
    {
     "NAME":"ZCL_CDS_ALV_DDIC_ACCESS=======CM00A",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"D000101",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_CDS_ALV_DDIC_ACCESS=======CM00B",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",

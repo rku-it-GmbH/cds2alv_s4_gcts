@@ -13,6 +13,7 @@
           i_interface = 'ZIF_CDS_ALV_VALUE_HELP'         i_class = get_implementation( 'ZIF_CDS_ALV_VALUE_HELP' ) ),
           i_interface = 'ZIF_CDS_ALV_REPORT_CONTROLLER'  i_class = get_implementation( 'ZIF_CDS_ALV_REPORT_CONTROLLER' ) ),
           i_interface = 'ZIF_CDS_ALV_REPORT_STRATEGY'    i_class = get_implementation( 'ZIF_CDS_ALV_REPORT_STRATEGY' ) ),
+          i_interface = 'ZIF_CDS_ALV_ACTION_HANDLER'     i_class = get_implementation( 'ZIF_CDS_ALV_ACTION_HANDLER' ) ),
           i_interface = 'ZIF_CDS_ALV_BOPF_HANDLER'       i_class = get_implementation( 'ZIF_CDS_ALV_BOPF_HANDLER' ) ),
           i_interface = 'ZIF_CDS_ALV_TABLE_CONTAINER'    i_class = get_implementation( 'ZIF_CDS_ALV_TABLE_CONTAINER' ) ).
         INSERT VALUE #( cds_view = i_cds_view ioc_container = r_ioc_container ) INTO TABLE ioc_containers.
